@@ -16,4 +16,9 @@ int main()
             cout<<a;
          else
             cout<<b;
+         cout<<"Min=";
+         if(a<b)
+            cout<<b;
+         else
+            cout<<a;
 }
